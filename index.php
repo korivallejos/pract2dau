@@ -28,7 +28,7 @@
       <tbody>
         <?php
 
-        $conexion = mysqli_connect(getenv('MYSQL_HOST'), getenv('MYSQL_USER'), getenv('MYSQL_PASSWORD'), "BASE DE DATOS");
+        $conexion = mysqli_connect(getenv('MYSQL_HOST'), getenv('MYSQL_USER'), getenv('MYSQL_PASSWORD'), "BASEDEDATOS");
 
         $cadenaSQL = "select * from agenda";
         $resultado = mysqli_query($conexion, $cadenaSQL);
